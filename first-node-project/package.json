@@ -1,0 +1,24 @@
+{
+  "name": "first-node-project",
+  "version": "1.0.0",
+  "description": "this is my first proyect",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": [
+    "first",
+    "project",
+    "nodejs"
+  ],
+  "author": "Danselo",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
